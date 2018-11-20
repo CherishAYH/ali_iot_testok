@@ -1,13 +1,13 @@
 package com.aliyun.iot.sign;
 
 public class 设备管理 {
-    public static void init(String accessKeyID,
+    public static void init(String accessKeyID,//初始化程序
                             String accessKeySecret,
                             String SignatureMethod,
                             String SignatureVersion,
                             String Format,
                             String Version,
-                            String RegionId)//初始化
+                            String RegionId)
     {
         配置文件.accessKey=accessKeyID;
         配置文件.accessKeySecret=accessKeySecret;
